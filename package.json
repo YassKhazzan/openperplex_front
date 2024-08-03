@@ -1,5 +1,5 @@
 {
-  "name": "openperplex_front",
+  "name": "openperplex_vue",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -9,11 +9,20 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.4.29",
-    "vue-router": "^4.3.3"
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/vue-fontawesome": "^3.0.5",
+    "axios": "^1.6.8",
+    "html-to-text": "^9.0.5",
+    "vue": "^3.4.21",
+    "vue-easy-lightbox": "^1.19.0",
+    "vue-router": "^4.3.0",
+    "vue3-markdown": "^1.1.9"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.0.5",
-    "vite": "^5.3.1"
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue-leaflet/vue-leaflet": "^0.10.1",
+    "leaflet": "^1.9.4",
+    "vite": "^5.2.8"
   }
 }

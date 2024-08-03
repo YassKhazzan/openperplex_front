@@ -1,0 +1,72 @@
+body {
+    color: #000000 !important;
+    overflow: scroll;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #ecebeb;
+    color: #fff;
+}
+
+.zenGreen {
+    color: #0a8080 !important;
+}
+
+.green-btn {
+    background-color: #0a8080 !important;
+    color: #fff !important;
+    border: 1.5px solid #0a8080 !important;
+    transition: all .3s ease !important;
+}
+
+.green-btn:hover {
+    background-color: #005961 !important;
+    color: #fff !important;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .ifNoMobile{
+        display: none !important;
+    }
+    .ifMobile{
+        display: grid !important;
+    }
+    .mt-2-mob{
+        margin-top: 0.5rem !important;
+    }
+}
+
+.ifMobile{
+    display: none;
+}
+
+.text-black {
+    color: black !important;
+}
+
+.maxWidth {
+    max-width: 100%;
+}
+
+.minHeight100 {
+    min-height: 100%;
+}
+
+
+.collapse {
+    transition: max-height 0.2s ease-out !important;
+}
+
+.dp__input_wrap {
+    color: #0c63e4 !important;
+}
+
+.dp__main {
+    color: #e40c0c !important;
+}
+
+

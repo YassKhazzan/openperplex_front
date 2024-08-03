@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'AnybodyExpanded';
+  src: url('../fonts/Anybody_Expanded-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Jersey20';
+  src: url('../fonts/Jersey20Charted-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.timeFont{
+  font-family: 'Jersey20', sans-serif !important;
+  font-size: 3rem;
+}
+.customFont{
+  font-family: 'AnybodyExpanded', sans-serif !important;
+}
+
+.centeredContent {
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+}
+
+.search-bar-input-group {
+  border-radius: 12px;
+  background: linear-gradient(#fff, #fff) padding-box, linear-gradient(90deg, #006232, #c1272d) border-box;
+  border: 3px solid transparent;
+}
+
+textarea.form-control {
+  min-height: calc(1.6em + 1.5rem + 2px);
+}
+
+.form-control:focus {
+  background-color: #f3f8ff;
+  border-color: transparent;
+  box-shadow: 0 0, 0 0 0 0 rgba(102, 88, 234, .25);
+  color: #1b1642;
+  outline: 0;
+}
+
+.search-bar-hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.lift {
+  transition: box-shadow .25s ease, transform .25s ease;
+}
+
+.lift:focus, .lift:hover {
+  box-shadow: 0 1rem 2.5rem rgba(27, 22, 66, .1), 0 .5rem 1rem -.75rem rgba(27, 22, 66, .1) !important;
+  transform: translate3d(0, -3px, 0);
+}
+
+.navBarHeight{
+  height: 3rem;
+}
+
+.searchArea {
+  width: 100%;
+  border-radius: 1rem;
+  padding: 1rem;
+  transition: box-shadow 0.3s ease-in-out;
+  resize: none;
+}
+
+.searchArea:hover {
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+}
+
+.tempSearchPosition{
+  width: 52% !important;
+  margin-left: 15% !important;
+}
+
+@media (max-width: 768px) {
+  .centeredContent {
+    width: 100%;
+  }
+  .w-75 {
+    width: 100% !important;
+  }
+
+  .tempSearchPosition{
+    width: 90% !important;
+    margin: auto !important;
+  }
+
+  .mobileFontSize{
+    font-size: 1.15rem !important;
+  }
+}

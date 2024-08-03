@@ -1,0 +1,281 @@
+
+.card-icon {
+    height: 1rem; /* Adjust the height as necessary */
+    width: auto;
+    font-size: small !important;
+}
+
+.text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+body {
+    line-height: 1.6;
+    color: #fff; /* Light text color for contrast */
+}
+
+.roundedBtn {
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 50% !important;
+}
+
+.roundedBtn-var {
+    border-radius: 50% !important;
+}
+
+
+.mainContentContainer {
+    padding: 2rem;
+    background-color: #ffffff;
+}
+
+.textAreaMaxHeight{
+    max-height: 15rem !important;
+}
+
+@media (max-width: 768px) {
+    .mainContentContainer {
+        padding: 1rem 5px 7rem;
+    }
+
+    .form-control { /* Make input fields full-width on mobile */
+        width: 100%;
+        margin-bottom: 1rem; /* Add space below the input field */
+    }
+    .roundedBtn { /* Optional: Adjust the rounded corners */
+        border-radius: 0.5rem;
+    }
+
+    .sticky-top { /* Disable sticky positioning on mobile */
+        position: static;
+    }
+
+    .zenCard { /* Adjust card sizes */
+        height: auto; /* Make card height flexible */
+    }
+
+    .secondary-img, .main-img { /* Adjust image sizes */
+        width: 100%; /* Full width images */
+        height: auto; /* Keep the aspect ratio */
+    }
+
+    footer { /* Adjust footer styles */
+        padding: 1rem 15px; /* Match the main container padding */
+    }
+
+    .customShapeInput {
+        max-width: 85% !important;
+    }
+
+    .mobileBtn {
+        display: block;
+    }
+
+    .logo {
+        max-height: 2rem;
+    }
+
+
+    .navbar-brand {
+        margin-right: 0 !important;
+    }
+}
+
+.announcement-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #000000; /* Change as per your color scheme */
+    color: #fff;
+    padding: 0.5rem;
+    text-align: center;
+    z-index: 9999;
+}
+
+.customFooter {
+    bottom: 0;
+    width: 100%;
+}
+
+.logo {
+    max-height: 4rem;
+    width: auto;
+    margin: auto;
+}
+
+/* Base Styles */
+.customShape {
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.customShapeInput {
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    margin-bottom: 0 !important;
+}
+
+.mobileBtn {
+    display: none;
+}
+
+
+@media (max-width: 576px) {
+    /* Adjust for small devices */
+    .customShapeInput {
+        max-width: 85% !important;
+    }
+
+    .mobileBtn {
+        display: block;
+    }
+}
+
+.customInputGroup {
+    border-radius: 50%;
+    transition: box-shadow 0.3s ease-in-out; /* Smooth transition for the shadow effect */
+}
+
+.customInputGroup:hover {
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+}
+
+.customInputGroup .form-control:focus {
+    outline: none; /* Removes the default focus outline */
+    box-shadow: none; /* Removes any focus shadow if applied by Bootstrap or other styles */
+    border-color: #ced4da;
+}
+
+.customSource {
+    transition: box-shadow 0.3s ease-in-out; /* Smooth transition for the shadow effect */
+    font-size: small !important;
+}
+
+.customSource:hover {
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+}
+
+.related-li {
+    cursor: pointer;
+}
+
+.pointerCursor {
+    cursor: pointer;
+}
+
+/**************************************Scroll Bar style ***************************************************/
+
+/* Styles the scrollbar track */
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Light grey background for the track */
+}
+
+/* Styles the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    background-color: #0a8080; /* Dark green scrollbar handle */
+    border-radius: 10px; /* Rounded corners on the scrollbar handle */
+    border: 3px solid #f1f1f1; /* Creates a border around the thumb with the same color as the track */
+}
+
+/* Styles the scrollbar itself (width, height) */
+::-webkit-scrollbar {
+    width: 8px; /* Width of the vertical scrollbar */
+    height: 8px; /* Height of the horizontal scrollbar */
+}
+
+/* Optional: styling for scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #065252; /* Darker green on hover */
+}
+
+/**************************************Scroll Bar style ***************************************************/
+
+.XLogo{
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    width: 15px;
+    height: 14px;
+    background: url("../img/logo-twitter-x.ico") 0 0 no-repeat transparent !important;
+    background-size: contain !important;
+    /*background: transparent 0 0 no-repeat;
+    background-image: url("../img/logo-twitter-x.webp") !important;*/
+}
+
+
+
+.bg-card-graph{
+    background-color: #f0f0f0 !important;
+}
+
+
+
+.dashed-border{
+    border:1px #b1b3b4 dashed !important;
+}
+
+.form-check.form-switch {
+    display: flex;
+    align-items: center;
+}
+
+.form-check.form-switch .form-check-input {
+    margin: 0 0.25rem 0 0;
+}
+
+.form-check-input:focus {
+    border-color: #0a8080;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(10, 128, 128, 0.55);
+}
+
+.form-check-input:focus::before {
+    background-color: #0a8080;
+}
+
+.form-check-input:focus::after {
+    background-color: #0a8080;
+}
+
+.form-check-input:checked {
+    background-color: #0a8080;
+    border-color: #0a8080;
+}
+
+.main-img {
+    border-radius: 0.5rem;
+    width: fit-content !important;
+    align-self: center;
+    max-width: 100%;
+    height: auto;
+}
+
+.secondary-img {
+    border-radius: 0.3rem;
+    width: fit-content !important;
+    align-self: center;
+    max-width: 100%;
+    height: auto;
+}
+
+.shadowed-image {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); /* x-offset, y-offset, blur-radius, color */
+    margin: 5px;
+    border-radius: 8px; /* Optional: for rounded corners */
+}
+
+.shadowed-graph-image {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 5px;
+    border-radius: 8px; /* Optional: for rounded corners */
+}
+
+
+.alert-custom {
+    background-color: #f3fafb !important;
+    color: #0c8585 !important;
+}

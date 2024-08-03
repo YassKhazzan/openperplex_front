@@ -1,29 +1,76 @@
-# openperplex_front
+## OpenPerplex front app
 
-This template should help get you started developing with Vue 3 in Vite.
+OpenPerplex is an open-source AI search engine built with Vue.js 3 and Vite. This repository contains the front-end application for OpenPerplex.com
 
-## Recommended IDE Setup
+## Openperplex python backend 
+- you can find the backend in this repo : `https://github.com/YassKhazzan/openperplex_backend_os.git`
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🚀 Features
 
-## Customize configuration
+- Modern and responsive user interface
+- Fast and efficient search functionality
+- Built with Vue.js 3 and Vite for optimal performance
+- Easy to customize and extend
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## 🛠️ Technology Stack
 
-## Project Setup
+- Vue.js 3 (with Composition API and <script setup>)
+- Vite (for fast development and building)
 
-```sh
-npm install
-```
 
-### Compile and Hot-Reload for Development
+## 📋 Prerequisites
 
-```sh
-npm run dev
-```
+Before you begin, ensure you have the following installed:
 
-### Compile and Minify for Production
+Node.js (version 16.x or later recommended)
+npm (usually comes with Node.js)
 
-```sh
-npm run build
-```
+## 🔧 Setup and Installation
+
+- Clone the repository:
+
+`git clone https://github.com/YassKhazzan/openperplex_front.git`
+cd openperple
+
+Install dependencies:
+`npm install`
+
+## Configure the search server:
+
+- `Open src/views/SearchResults.vue`
+- Locate the line: `const searchServer = ref('http://127.0.0.1:8000');`
+- Replace the URL with your actual server address
+
+
+
+
+
+## 🚀 Running the Application
+
+#### For Development
+
+- To run the app in development mode with hot-reloading: `npm run dev` or `vite`
+
+#### For Production
+
+- To build the app for production: `npm run build` or `vite build`
+
+#### 🔍 Customizing the Configuration
+
+- For detailed configuration options, see the Vite Configuration Reference.
+#### 💻 Recommended IDE Setup
+For the best development experience, we recommend:
+
+VSCode
+Volar extension (make sure to disable Vetur if you have it installed)
+
+## 🤝 Contributing
+
+We welcome contributions to OpenPerple! Please feel free to submit issues, fork the repository and send pull requests!
+
+## 📝 License
+- MIT
+
+## 📞 Contact
+
+For any questions or feedback, please open an issue on this repository or contact me on [X](https://x.com/KhazzanYassine)  

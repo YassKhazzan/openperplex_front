@@ -200,8 +200,8 @@ const llmResponse = ref('');
 const positionClass = ref('fixed-bottom tempSearchPosition');
 const graph = ref(null);
 const answerBox = ref(null);
-//const searchServer = ref('http://127.0.0.1:8003');
-const searchServer = ref('https://5636c1b8-baa1-4bde-b634-ce49649401f9.app.gra.ai.cloud.ovh.net');
+const searchServer = ref('http://127.0.0.1:8000');
+
 
 const storedLocation = localStorage.getItem('userCountryOpenPerplex');
 const visible = ref(false);

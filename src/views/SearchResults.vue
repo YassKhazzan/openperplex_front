@@ -21,13 +21,9 @@
     <div class="row w-75 m-auto">
       <div class="col-md-9 col-sm-12">
 
-        <!------------------------------    Loading Component    ------------------------------------>
 
         <LoadingComponent :query="searchTitle" :sources="sources" v-if="isLoading && proMode"/>
 
-        <!------------------------------    Loading Component    ------------------------------------>
-
-        <!--------------------------------    Answer box Compnent    ---------------------------------->
         <div class="row mb-3" v-if="answerBox">
           <div class="card bg-card-graph">
             <div class="card-body">
@@ -47,10 +43,6 @@
             </div>
           </div>
         </div>
-        <!--------------------------------    TIME Compnent    ---------------------------------->
-
-
-        <!--------------------------------    GRAPH Compnent    ---------------------------------->
         <div class="row maxWidth m-auto mb-4" v-if="graph">
           <div class="card bg-card-graph border-2">
             <div class="card-body">
@@ -105,7 +97,6 @@
         <Spinner v-if="isLoading && !proMode" class="mt-5"></Spinner>
 
 
-        <!--------------------------------    Related Compnent    ---------------------------------->
         <div class="row w-100 m-auto mt-4 mb-md-5 pb-md-5 " v-if="relatedQuestions.length>0">
           <h6 class="fw-bold zenGreen">
             <fa icon="question-circle" class="me-2"></fa>
@@ -125,12 +116,8 @@
           </div>
           <hr class="ifMobile"/>
         </div>
-        <!--------------------------------   FIN Related Compnent    ---------------------------------->
-
-        <!--------------------------------    TEXT AREA    ---------------------------------->
         <TextAreaComponent :is-main-comp="false" @searchFunction="search_analysis_global"
                            @change-pro-mode="changeProMode"></TextAreaComponent>
-        <!--------------------------------  FIN TEXT AREA    ---------------------------------->
       </div>
       <div class="col-md-3 col-sm-12">
         <div class="row sticky-top">

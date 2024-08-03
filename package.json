@@ -13,7 +13,6 @@
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/vue-fontawesome": "^3.0.5",
     "axios": "^1.6.8",
-    "html-to-text": "^9.0.5",
     "vue": "^3.4.21",
     "vue-easy-lightbox": "^1.19.0",
     "vue-router": "^4.3.0",

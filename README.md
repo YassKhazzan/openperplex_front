@@ -1,6 +1,6 @@
 # openperplex_front
 
-openperplex front end app in vuejs 3 and vite
+openperplex front app in vuejs 3 and vite
 
 ## Recommended IDE Setup
 
@@ -34,3 +34,6 @@ in src/views/SearchResults.vue
 
 change the const searchServer = ref('http://127.0.0.1:8000');
 to your actual server
+
+### backend project in fast api ###
+See [openperplex_backend](https://github.com/YassKhazzan/openperplex_backend_os.git).

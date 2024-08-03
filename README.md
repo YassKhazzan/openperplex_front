@@ -1,6 +1,6 @@
 # openperplex_front
 
-This template should help get you started developing with Vue 3 in Vite.
+openperplex front end app in vuejs 3 and vite
 
 ## Recommended IDE Setup
 
@@ -27,3 +27,10 @@ npm run dev
 ```sh
 npm run build
 ```
+
+
+### change search server ###
+in src/views/SearchResults.vue
+
+change the const searchServer = ref('http://127.0.0.1:8000');
+to your actual server

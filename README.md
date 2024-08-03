@@ -66,7 +66,7 @@ Volar extension (make sure to disable Vetur if you have it installed)
 
 ## 🤝 Contributing
 
-We welcome contributions to OpenPerple! Please feel free to submit issues, fork the repository and send pull requests!
+We welcome contributions to OpenPerplex! Please feel free to submit issues, fork the repository and send pull requests!
 
 ## 📝 License
 - MIT
